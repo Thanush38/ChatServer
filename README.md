@@ -12,11 +12,6 @@ A user needs to be in a chat room to send a messages
 
 click image to view video of the application working.
 
-#### Group members
-Jinothan Suthakaran (100865613)\
-Thananjaya Sharma Dinesh (100861759)\
-Kobisan Vinotharupan (100871142)\
-Owais Fawad (100872090)
 
 ### Improvements
 Some functional improvements include:
@@ -46,12 +41,5 @@ To run this application you'd want to follow these steps:
 - run the glassfish server
 - open the index.html file
 
-
-
-### Contribution report
-Thananjaya: 25%\
-Jinothan: 25%\
-Kobisan: 25%\
-Owais: 25%
 
 

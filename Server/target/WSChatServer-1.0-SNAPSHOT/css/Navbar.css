@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Epilogue';
+    font-family: 'Epilogue'; /* import font */
     src: url('../font/Epilogue-Regular.ttf') format('truetype');
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Initialize flexbox */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: center; /* Center items vertically */
     background-color: #037ffb;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); /* Add box shadow */
     height:12vh;
     width: 99vw;
     font-family: Epilogue, serif;
@@ -22,13 +22,13 @@
 .components {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: center; /* Center items vertically */
 }
 
 .links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space items evenly along the main axis */
     align-items: center;
     width: 15%;
     padding-right: 3.125%;
@@ -38,12 +38,12 @@
     color: black;
     text-decoration: none;
     margin: 0 35px;
-    transition: color ease-in-out 0.5s, font-size ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s, font-size ease-in-out 0.5s; /* Add transition effect */
 }
 
 .links a:hover {
-    color: ghostwhite;
-    font-size: 1.2em;
+    color: ghostwhite; /* Change text color on hover */
+    font-size: 1.2em; /* Increase font size on hover */
 }
 
 .active {
