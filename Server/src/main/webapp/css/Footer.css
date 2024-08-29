@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Epilogue'; /* Import font */
+    src: url('../font/Epilogue-Regular.ttf') format('truetype');
+}
+
+.footer-container {
+    display: flex; /* Initialize flexbox */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+    background-color: #037ffb;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); /* Shadow for the footer section */
+    height: 8vh;
+    width: 99vw;
+    font-family: Epilogue, serif;
+}
+
+.footer-components {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.footer-title {
+    color: white;
+    margin-left: 20px;
+}

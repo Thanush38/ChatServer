@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Epilogue'; /* import font */
+    src: url('../font/Epilogue-Regular.ttf') format('truetype');
+}
+
+body, html {
+    font-family: Epilogue, serif;
+    margin: 0; /* Reset default styles */
+    padding: 0; /* Reset default styles */
+    overflow-y: hidden; /* Do not allow container to scroll when content overflows */
+}
+
+.about-container {
+    display: flex; /* Initialize flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 80vh;
+    width: 99vw;
+    background-color: #f5f5f5;
+    font-family: Epilogue, serif;
+    overflow-y: hidden; /* Do not allow container to scroll when content overflows */
+}
+
+.description {
+    margin: auto auto 10px; /* Center vertically and add bottom margin */
+    font-family: Epilogue, serif;
+}
+
+.team {
+    margin-bottom: 20px;
+    font-family: Epilogue, serif;
+}

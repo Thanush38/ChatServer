@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chat Client</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/Navbar.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="css/People.css">
+</head>
+<body>
+    <div class="container">
+        <div class="components">
+            <div class="navbar-title">
+                <h1>Chat App</h1>
+            </div>
+            <div class="links">
+                <a href="/">Home</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-container">
+        <div class="sidebar">
+            <div class="chatrooms-list">
+                <h3>Chat Rooms</h3>
+                <ul id="roomList">
+                </ul>
+            </div>
+            <div class="new-chatroom">
+                <h3>Create New Chat Room</h3>
+                <input title="enter chat room" id="room" type="hidden" placeholder="Enter chat room"/>
+                <button title="Create Room" id="join" onClick="getRoomCode(true)">Create Room</button>
+            </div>
+            <div class="chatroom-members">
+                <h3>Members Online</h3>
+                <ul id="userList">
+                    <li>You are not in a room</li>
+                    <li>Please join a room</li>
+                </ul>
+            </div>
+        </div>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3 id="currentRoom">Current Room: </h3>
+            </div>
+            <div class="chat-messages" id="scroll">
+                <div class="textarea-div" id="log">
+                </div>
+            </div>
+
+            <div class="chat-input">
+                <input title="Chat Input" id="input" type="text"/>
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer-components">
+            <h4 class="footer-title">Copyright © CSCI 2020U - Winter 2024</h4>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Epilogue';
+    src: url('../font/Epilogue-Regular.ttf') format('truetype');
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #037ffb;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    height:12vh;
+    width: 99vw;
+    font-family: Epilogue, serif;
+}
+
+.navbar-title {
+    color: white;
+    margin-left: 3%;
+}
+
+.components {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    padding-right: 3.125%;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 35px;
+    transition: color ease-in-out 0.5s, font-size ease-in-out 0.5s;
+}
+
+.links a:hover {
+    color: ghostwhite;
+    font-size: 1.2em;
+}
+
+.active {
+    color: ghostwhite;
+    font-size: 1.2em;
+}
